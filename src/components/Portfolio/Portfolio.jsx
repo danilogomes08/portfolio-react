@@ -21,6 +21,13 @@ const Portfolio = props => {
                     <Tecnologias classe="list" filter="reactJS" tecnologia="ReactJS"/>
                 </ul>
                 <div className="tecnologias">
+
+                    <Projetos item="reactJS" 
+                        projetoLink="https://github.com/danilogomes08/portfolio-react/" 
+                        diretorio="" alt="" 
+                        codigoLink="https://github.com/danilogomes08/portfolio-react"
+                    />
+
                     <Projetos item="reactJS" 
                         projetoLink="https://pokedexv2-lake.vercel.app/" 
                         diretorio="" alt="" 
