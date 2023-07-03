@@ -1,12 +1,19 @@
 import React from 'react'
 
+import './Main.scss'
+
 const Main = _ => {
 
     return (
-        <main className="Container">
-            <p><span>Olá,</span>
-            <span>Eu sou Danilo</span>
-            Freelance & Front End Jr.</p>
+        <main>
+            <div>
+                <p>Olá,</p>
+                <span>Eu sou Danilo</span>
+                <p>Freelance & Front End Jr.</p>
+            </div> 
+            <div>
+                <img src=""  alt="" />
+            </div>     
         </main>
     )
 

@@ -1,11 +1,15 @@
 import react from 'react'
 
+import './Footer.scss'
+
 const Footer = _ => {
 
     return (
-        <p>
-            © Danilo Portfolio - 2023
-        </p>
+        <footer>
+            <p>
+                © Danilo Portfolio - 2023
+            </p>
+        </footer>
     )
 }
 

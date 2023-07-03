@@ -1,22 +1,27 @@
 import react from 'react'
 
+import './Jobs.scss'
+
 import Title from '../Title/Title'
+
+import Front from '../../img/front.png'
+
 
 const Jobs = props => {
 
     return (
 
-        <section id="servicos" class="container">
+        <section className="Jobs">
 
             <Title title="Serviços " />
 
-            <div class="servicos">
+            <div className="Servicos">
    
                 <div>
-                    <img src="#" alt="" />
+                    <img src={Front} alt="" />
                     <h3>Desenvolvimento</h3>
-                    <p>Desenvolvimento e manutenção de sites institucionais, 
-                        portfólios, e-commerce e landing pages.</p>
+                    <p>Desenvolvimento e manutenção de sites institucionais,
+                    portfólios, e-commerce e landing pages.</p>
                 </div>
             </div>
 

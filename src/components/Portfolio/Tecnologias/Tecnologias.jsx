@@ -1,5 +1,7 @@
 import react from 'react'
 
+import './Tecnologias.scss'
+
 const Tecnologias = props => {
 
     return (

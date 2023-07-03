@@ -1,19 +1,23 @@
 import react from 'react';
 
+import imgAbout from '../../img/danilo01.png'
+
+import './About.scss'
+
 import Buttons from './Buttons/Buttons'
+import Title from '../Title/Title'
 
 const About = props => {
 
     return (
 
-        <section className="container" id="sobre">
+        <section className="Sobre">
 
-            <img src={props.img} alt={props.alt} width="350px" />
+            <img src={imgAbout} alt="" />
 
             <div>
-                <h2>Sobre</h2>
 
-                <div class="linha-vertical"></div>
+                <Title title="Sobre" />
 
                 <p>
                     Olá, me chamo Danilo tenho 29 anos e moro na cidade de Guarujá/SP, 
@@ -22,7 +26,7 @@ const About = props => {
 
                 </p>
 
-                <div className="buttons scroll">
+                <div className="Buttons Scroll">
                     <Buttons buttonTitle="DOWNLOAD CV" href="#" donwload />
                     <Buttons buttonTitle="Portfolio" href="#" />
                 </div>

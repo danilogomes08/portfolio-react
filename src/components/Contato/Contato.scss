@@ -1,0 +1,31 @@
+@import '../../index.scss';
+
+.Contato {
+    @include container;
+    & div:first-child {
+        margin: 0 auto;
+    }
+    & .Linha-vertical {
+        margin-bottom: 80px;
+        margin: 0 auto;
+    }
+}
+
+.Contatos {
+    @include container-interno;
+    align-items: center;
+    margin-bottom: 100px;
+    & img {
+        max-width: 12%;
+        margin-left: 5px;
+        border-radius: 5px;
+        transition: all .5s ease-in-out;
+        display: inline-block;
+    }
+    & div {
+        max-width: 400px;
+    }
+    & img:hover {
+        transform: scale(1.2); 
+    }
+}

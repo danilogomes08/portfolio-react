@@ -1,0 +1,22 @@
+@import '../../index.scss';
+
+.Jobs {
+    @include container;
+    & .Linha-vertical, > div:first-child {
+        margin: 0 auto;
+    }
+    & .Linha-vertical {
+        margin-bottom: 80px
+    }
+}
+
+.Servicos {
+    @include container-interno;
+    justify-content: center;
+    & img {
+        max-width: 25%;
+    }
+    & div {
+        max-width: 350px;
+    }
+}

@@ -1,0 +1,16 @@
+@import '../../../index.scss';
+
+.ItemBox {
+    margin: 25px 20px;
+    text-align: center;
+    & a {
+        transition: all .5s ease-in-out;
+    }
+    & a:hover {
+        color: $roxo
+    }
+}
+
+.Hide {
+    display: none;
+}

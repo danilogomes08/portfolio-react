@@ -1,0 +1,30 @@
+@import '../../index.scss';
+
+.Portfolio {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+    & ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 50px;
+    }
+    & .Linha-vertical {
+        margin: 0 auto;
+        margin-bottom: 80px;
+    }
+}
+
+.Tecnologias {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+}

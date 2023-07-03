@@ -1,0 +1,15 @@
+@import '../../index.scss';
+
+main {
+    @include container;
+    padding: 80px 0;
+    & p {
+        font-size: 15px;
+    }
+    & span:nth-child(2) {
+        color: $roxo;
+        font-weight: 600;
+        font-size: 3rem;
+    }
+}
+
