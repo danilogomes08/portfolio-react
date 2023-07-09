@@ -5,7 +5,7 @@ const Social = props => {
     return (
 
         <a href={props.link} target="_blank">
-            <img src={props.diretorio} alt={props.alt} />
+            <img src={props.img} alt={props.alt} />
         </a>
 
     )

@@ -2,11 +2,11 @@
 
 .Jobs {
     @include container;
-    & .Linha-vertical, > div:first-child {
+    &  > div:first-child {
         margin: 0 auto;
     }
     & .Linha-vertical {
-        margin-bottom: 80px
+        margin: 0 auto 80px auto
     }
 }
 

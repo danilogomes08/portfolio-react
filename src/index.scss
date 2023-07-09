@@ -22,6 +22,11 @@ body {
     overflow-x: hidden;
 }
 
+.hide {
+    display: none;
+}
+
+
 @mixin container {
     max-width: 950px;
     display: flex;

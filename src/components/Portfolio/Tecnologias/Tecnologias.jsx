@@ -5,8 +5,8 @@ import './Tecnologias.scss'
 const Tecnologias = props => {
 
     return (
-        <li className={props.classe} data-filter={props.filter}> 
-            {props.tecnologia}
+        <li onClick={() => props.filter(props.category)}> 
+            {props.name}
         </li>
     )
 }

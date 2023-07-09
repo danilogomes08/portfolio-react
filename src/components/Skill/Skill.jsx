@@ -23,17 +23,17 @@ const Skill = props => {
             <Title title="Habilidades" />
 
             <div className="Habilidades">
-                <Skills skill="Elementor" imgSkill={Elementor} />
-                <Skills skill="WooCommerce" imgSkill={Woo} />
-                <Skills skill="HTML" imgSkill={HTML} />
-                <Skills skill="CSS" imgSkill={CSS} />
+                <Skills skill="Elementor" img={Elementor} />
+                <Skills skill="WooCommerce" img={Woo} />
+                <Skills skill="HTML" img={HTML} />
+                <Skills skill="CSS" img={CSS} />
             </div>
 
             <div className="Habilidades">
-                <Skills skill="JavaScript" imgSkill={JS} />
-                <Skills skill="React" imgSkill={React} />
-                <Skills skill="Bootstrap" imgSkill={Bootstrap} />
-                <Skills skill="SASS" imgSkill={SASS} />
+                <Skills skill="JavaScript" img={JS} />
+                <Skills skill="React" img={React} />
+                <Skills skill="Bootstrap" img={Bootstrap} />
+                <Skills skill="SASS" img={SASS} />
             </div>
       
         </section>

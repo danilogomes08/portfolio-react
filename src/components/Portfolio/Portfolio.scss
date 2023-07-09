@@ -15,8 +15,7 @@
         margin-bottom: 50px;
     }
     & .Linha-vertical {
-        margin: 0 auto;
-        margin-bottom: 80px;
+        margin: 0 auto 80px auto
     }
 }
 
@@ -27,4 +26,15 @@
     flex-wrap: wrap;
     max-width: 80%;
     margin: 0 auto;
+}
+
+.ItemBox {
+    margin: 25px 20px;
+    text-align: center;
+    & a {
+        transition: all .5s ease-in-out;
+    }
+    & a:hover {
+        color: $roxo
+    }
 }

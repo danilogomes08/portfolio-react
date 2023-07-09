@@ -31,10 +31,10 @@ const Contato = props => {
                 </div>
                 <div className="Redessocial">
 
-                    <Social link="https://www.linkedin.com/in/danilo-gms/" alt="" diretorio={Linkedin} />
-                    <Social link="https://github.com/danilogomes08" alt="" diretorio={Github} />
-                    <Social link="https://bit.ly/3foG2j4" alt="" diretorio={Whatsapp} />
-                    <Social link="mailto:danilo.dsgomes@gmail.com" alt="" diretorio={Email} />
+                    <Social link="https://www.linkedin.com/in/danilo-gms/" alt="" img={Linkedin} />
+                    <Social link="https://github.com/danilogomes08" alt="" img={Github} />
+                    <Social link="https://bit.ly/3foG2j4" alt="" img={Whatsapp} />
+                    <Social link="mailto:danilo.dsgomes@gmail.com" alt="" img={Email} />
 
                 </div>
             </div>

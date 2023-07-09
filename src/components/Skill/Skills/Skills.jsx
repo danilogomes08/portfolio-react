@@ -4,7 +4,7 @@ const Skils = props => {
 
     return (
         <div>
-            <img src={props.imgSkill} alt={props.alt} />
+            <img src={props.img} alt={props.alt} />
             <h3>{props.skill}</h3>
         </div>
     )
