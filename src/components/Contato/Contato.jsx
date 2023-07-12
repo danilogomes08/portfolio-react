@@ -5,11 +5,6 @@ import './Contato.scss'
 import Title from '../Title/Title'
 import Social from './Social/Social'
 
-import Linkedin from '../../img/linkedin.png'
-import Github from '../../img/github.png'
-import Whatsapp from '../../img/whatsapp.png'
-import Email from '../../img/e-mail.png'
-
 
 const Contato = props => {
 
@@ -31,10 +26,10 @@ const Contato = props => {
                 </div>
                 <div className="Redessocial">
 
-                    <Social link="https://www.linkedin.com/in/danilo-gms/" alt="" img={Linkedin} />
-                    <Social link="https://github.com/danilogomes08" alt="" img={Github} />
-                    <Social link="https://bit.ly/3foG2j4" alt="" img={Whatsapp} />
-                    <Social link="mailto:danilo.dsgomes@gmail.com" alt="" img={Email} />
+                    <Social link="https://www.linkedin.com/in/danilo-gms/" alt="" img="../../img/linkedin.png" />
+                    <Social link="https://github.com/danilogomes08" alt="" img="../../img/github.png" />
+                    <Social link="https://bit.ly/3foG2j4" alt="" img='../../img/whatsapp.png' />
+                    <Social link="mailto:danilo.dsgomes@gmail.com" alt="" img='../../img/e-mail.png' />
 
                 </div>
             </div>

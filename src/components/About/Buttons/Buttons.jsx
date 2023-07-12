@@ -5,7 +5,7 @@ import './Buttons.scss'
 const Buttons = props => {
 
     return (
-        <a href={props.href}>
+        <a href={props.href} target={props.target}>
             {props.buttonTitle}
         </a> 
     )

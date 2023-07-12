@@ -24,7 +24,7 @@ const Portfolio = props => {
 
       return (
 
-        <section className="Portfolio">
+        <section className="Portfolio" id="Portfolio">
             
             <Title title="Portfolio" />
 
@@ -43,11 +43,11 @@ const Portfolio = props => {
                         itens.map((item) => {
 
                         return (
-                            <div className="ItemBox">
+                            <div className="ItemBox" key={item.id}>
                                 <a href={item.projetoLink} target="_blank">
-                                <img src={item.image} />
+                                    <img src={item.image} />
                                 </a>
-                                <br />
+                                    <br />
                                 {item.codigoLink ? <span> <a href={item.codigoLink} target="_blank"> código</a> | </span> : false}       
                                 <a href={item.projetoLink} target="_blank">página </a>
                             </div>

@@ -26,6 +26,9 @@
     flex-wrap: wrap;
     max-width: 80%;
     margin: 0 auto;
+    @include device(768px) {
+        max-width: 100%;
+    }
 }
 
 .ItemBox {

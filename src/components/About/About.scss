@@ -4,20 +4,41 @@
     @include container;
     padding: 80px 0;
     margin-bottom: 100px;
+    @include device(768px) {
+        padding: 0px 20px;
+        & h2 {
+            text-align: center;
+        }
+        & .Linha-vertical {
+            margin: 0 auto 20px auto
+        } 
+    }
+
     & > div {
         max-width: 450px;
         font-weight: 300;
     }
     & img {
         max-width: 350px;
+        @include device(768px) {
+            margin: 0 auto 20px auto;
+        }
     } p {
         margin-bottom: 40px;
+        @include device(768px) {
+            padding: 0px 20px;
+        }
     }
 } 
+
 
 .Buttons {
     display: flex;
     flex-wrap: wrap;
-    max-width: 100%;  
+    max-width: 100%; 
+    @include device(768px) {
+        justify-content: center;
+        
+    } 
 }
 

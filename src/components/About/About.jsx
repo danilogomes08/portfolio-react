@@ -1,7 +1,5 @@
 import react from 'react';
 
-import imgAbout from '../../img/danilo01.png'
-
 import './About.scss'
 
 import Buttons from './Buttons/Buttons'
@@ -13,7 +11,7 @@ const About = props => {
 
         <section className="Sobre">
 
-            <img src={imgAbout} alt="" />
+            <img src="./../img/danilo01.png" alt="" />
 
             <div>
 
@@ -27,8 +25,9 @@ const About = props => {
                 </p>
 
                 <div className="Buttons Scroll">
-                    <Buttons buttonTitle="DOWNLOAD CV" href="#" donwload />
-                    <Buttons buttonTitle="Portfolio" href="#" />
+                    <Buttons buttonTitle="DOWNLOAD CV" href="./../arquivos/CURRICULO - DANILO GOMES.pdf" 
+                        donwload target="_blank" />
+                    <Buttons buttonTitle="Portfolio" href="#Portfolio" />
                 </div>
 
             </div>

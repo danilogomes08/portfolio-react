@@ -1,26 +1,3 @@
-import PokedexV2 from './../img/logo-pokemonV2.png'
-import HomeDefence from '../img/home-defense.png'
-import TropaAguias from '../img/tropa-logo.png'
-import ATropa from '../img/rick-logo.png'
-import Espiritualidade from '../img/espiritualidade-plena.png'
-import ChakraOlho from '../img/chakra-olho.png'
-import Carvalho from '../img/cn-logo.png'
-import Katy from '../img/logo-katy.png'
-import Plexo from '../img/plexo-solar.png'
-import ChakraRaiz from '../img/chakra-raiz.png'
-import Alpinista from '../img/logo-alpinista.png'
-import Couldbuilder from '../img/logo-couldbuilder.png'
-import Cozy from '../img/logo-cozy.png'
-import Interact from '../img/logo-interact.png'
-import Medidove from '../img/logo-medidove.png'
-import Weather from '../img/logo-open.png'
-import Econverse from '../img/econverse.png'
-import Pokemon from '../img/logo-pokemon.png'
-import Semana3Saudes from '../img/logo-semana3saudes.png'
-import Softwerk from '../img/logo-softwerk.png'
-import Els from '../img/logo-els.png'
-import Meditacao from '../img/logo-meditacao.png'
-
 const Projects = [
     {
         id: 1,

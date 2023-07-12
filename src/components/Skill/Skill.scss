@@ -13,6 +13,13 @@
 
 .Habilidades {
     @include container-interno;
+    @include device(768px) {
+        margin-bottom: 0;
+        div {
+            margin-bottom: 30px;
+            padding: 0 50px;
+        }
+    }
     & div {
         max-width: 230px;
     }
