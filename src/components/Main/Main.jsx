@@ -12,7 +12,7 @@ const Main = _ => {
                 <p>Freelance & Front End Jr.</p>
             </div> 
             <div>
-                <img src=""  alt="" />
+                <img src="../../img/frontendmain.png"  alt="" />
             </div>     
         </main>
     )
