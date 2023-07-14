@@ -16,8 +16,8 @@
     @include device(768px) {
         margin-bottom: 0;
         div {
-            margin-bottom: 30px;
-            padding: 0 50px;
+            margin: 0 auto 30px auto;
+            padding: 0 30px
         }
     }
     & div {
