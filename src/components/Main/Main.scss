@@ -1,11 +1,11 @@
 @import '../../index.scss';
 
 main {
+    padding: 80px 0;
     @include container;
     @include device(768px) {
         flex-direction: column;
     }
-    padding: 80px 0;
     & p {
         font-size: 15px;
     }
@@ -23,7 +23,7 @@ main {
         max-width: 100%;
         text-align: center;
         margin-bottom: 50px;
-    }
+        }
     }
     & div:nth-child(2) {
         max-width: 55%;

@@ -1,5 +1,7 @@
 import react from 'react'
 
+import './Skills.scss'
+
 const Skils = props => {
 
     return (
