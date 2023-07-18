@@ -10,7 +10,8 @@
     &:hover {
         background-color: $roxo-claro
     }
-    & ul li.active {
-        background-color: $roxo;
-    }
+}
+
+.Red {
+    background-color: red !important;
 }

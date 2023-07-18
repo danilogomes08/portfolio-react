@@ -1,8 +1,8 @@
 const Projects = [
     {
         id: 1,
-        image: '../img/logo-pokemonV2.png',
-        projetoLink: 'https://github.com/danilogomes08/portfolio-react',
+        image: './../img/danilo-portfolio.png',
+        projetoLink: 'https://portfolio-react-seven-beta.vercel.app/',
         codigoLink: 'https://github.com/danilogomes08/portfolio-react',
         category: 'reactJS', 
     },
@@ -150,13 +150,6 @@ const Projects = [
         id: 22,
         image: './../img/logo-els.png',
         projetoLink: 'https://lp.elsprime.com.br/',
-        codigoLink: '',
-        category: 'elementor', 
-    },
-    {
-        id: 23,
-        image: './../img/logo-meditacao.png',
-        projetoLink: 'https://americobarbosa.com.br/semana-meditacao-org',
         codigoLink: '',
         category: 'elementor', 
     }

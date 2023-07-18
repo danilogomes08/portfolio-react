@@ -23,10 +23,6 @@ body {
     overflow-x: hidden;
 }
 
-.hide {
-    display: none;
-}
-
 @mixin device($size) {
     @media screen and (max-width: $size) {
         @content;
