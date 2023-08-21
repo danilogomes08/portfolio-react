@@ -49,7 +49,7 @@ const Portfolio = props => {
                                 </a>
                                     <br />
                                 {item.codigoLink ? <span> <a href={item.codigoLink} target="_blank"> código</a> | </span> : false}       
-                                <a href={item.projetoLink} target="_blank">página </a>
+                                <a href={item.projetoLink} target="_blank">página </a> 
                             </div>
                         )
 
