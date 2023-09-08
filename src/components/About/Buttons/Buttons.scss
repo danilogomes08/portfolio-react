@@ -2,10 +2,13 @@
 
 .Buttons a:nth-child(2) {
     transition: all .5s ease-in-out;
-    display: inline-block;
     background-color: $roxo;
     border-radius: 5px;
-    padding: 14px 40px;
+    flex: 1;
+    margin-left: 15px;
+    text-align: center;
+    align-self: center;
+    padding: 13px 0;
 }
 
 .Buttons a:nth-child(2):hover {
@@ -14,12 +17,13 @@
 
 .Buttons a:nth-child(1) {
     transition: all .5s ease-in-out;
-    display: inline-block;
     border: 2px solid $roxo;
     color: $roxo;
-    margin-right: 30px;
     border-radius: 5px;
-    padding: 12px 30px;
+    flex: 1;
+    padding: 13px 0;
+    margin-right: 15px;
+    text-align: center;
 }
 
 .Buttons a:nth-child(1):hover{ 

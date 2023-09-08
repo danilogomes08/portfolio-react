@@ -19,7 +19,7 @@ const About = props => {
 
                 <p>
                     Olá, me chamo Danilo tenho 29 anos e moro na cidade de Guarujá/SP, 
-                    sou formato em Sistemas para Internet pela Fatec Rubens Lara (Fatec Santos).
+                    sou formado em Sistemas para Internet pela Fatec Rubens Lara (Fatec Santos).
                     Atualmente estudo com desenvolvimento front end, e futuramente iniciar com desenvolvimento mobile.
 
                 </p>
