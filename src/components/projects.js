@@ -120,8 +120,8 @@ const Projects = [
     {
         id: 18,
         image: './../img/logo-interact.png',
-        projetoLink: 'https://danilogomes08.github.io/Interact',
-        codigoLink: 'https://github.com/danilogomes08/Interact',
+        projetoLink: 'https://interact-delta.vercel.app/',
+        codigoLink: 'https://interact-delta.vercel.app/',
         category: 'bootstrap', 
     },
     {
