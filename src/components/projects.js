@@ -106,14 +106,14 @@ const Projects = [
     {
         id: 16,
         image: './../img/logo-couldbuilder.png',
-        projetoLink: 'https://danilogomes08.github.io/cobuild',
+        projetoLink: 'https://cobuild-tau.vercel.app/',
         codigoLink: 'https://github.com/danilogomes08/cobuild',
         category: 'hcj', 
     },
     {
         id: 17,
         image: './../img/logo-cozy.png',
-        projetoLink: 'https://danilogomes08.github.io/cozy-house/',
+        projetoLink: 'https://cozy-house-iota.vercel.app/',
         codigoLink: 'https://github.com/danilogomes08/cozy-house',
         category: 'sass', 
     },
@@ -127,7 +127,7 @@ const Projects = [
     {
         id: 19,
         image: './../img/logo-medidove.png',
-        projetoLink: 'https://danilogomes08.github.io/medidove',
+        projetoLink: 'https://medidove-nine.vercel.app/',
         codigoLink: 'https://github.com/danilogomes08/medidove',
         category: 'hcj', 
     },
@@ -141,7 +141,7 @@ const Projects = [
     {
         id: 21,
         image: './../img/logo-softwerk.png',
-        projetoLink: 'https://danilogomes08.github.io/softwerk/',
+        projetoLink: 'https://softwerk.vercel.app/',
         codigoLink: 'https://github.com/danilogomes08/softwerk',
         category: 'hcj', 
     },
