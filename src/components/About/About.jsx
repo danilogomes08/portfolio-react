@@ -18,10 +18,13 @@ const About = props => {
                 <Title title="Sobre" />
 
                 <p>
-                    Olá, me chamo Danilo tenho 29 anos e moro na cidade de Guarujá/SP, 
-                    sou formado em Sistemas para Internet pela Fatec Rubens Lara (Fatec Santos).
-                    Atualmente estudo com desenvolvimento front end, e futuramente iniciar com desenvolvimento mobile.
-
+                    Olá! Sou um Desenvolvedor Front-End, formado pela FATEC Santos, com paixão por criar interfaces dinâmicas, funcionais e atraentes para web. Minha missão é transformar ideias em experiências digitais que encantam e entregam valor.
+                  
+                    Com uma sólida experiência em tecnologias modernas, domino ferramentas e linguagens como React, JavaScript, HTML, CSS, SASS e Bootstrap. Além disso, possuo expertise em design e desenvolvimento com Elementor PRO, o que me permite construir sites personalizados e altamente otimizados no WordPress.
+                    
+                    Valorizo a atenção aos detalhes, buscando sempre estar atualizado com as melhores práticas e tendências do mercado. Seja para projetos corporativos, startups ou iniciativas pessoais, estou preparado para entregar soluções eficientes e criativas.
+                    
+                    Vamos criar algo incrível juntos?
                 </p>
 
                 <div className="Buttons Scroll">
