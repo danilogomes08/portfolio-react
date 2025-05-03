@@ -7,7 +7,7 @@ const Footer = _ => {
     return (
         <footer>
             <p>
-                © Danilo Portfolio - 2024
+                © Danilo Portfolio - 2025
             </p>
         </footer>
     )
