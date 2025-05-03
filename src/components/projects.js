@@ -1,9 +1,4 @@
-const Projects = [    {
-        id: 5,
-        image: './../img/logo-delta.png',
-        projetoLink: 'https://deltaseguranca.com.br/',
-        category: 'elementor', 
-    },
+const Projects = [    
     {
         id: 1,
         image: './../img/arrivo-logo.png',
@@ -28,6 +23,12 @@ const Projects = [    {
         projetoLink: 'https://sussurrosdoinvisivel.com/',
         category: 'elementor', 
     },    
+    {
+        id: 5,
+        image: './../img/logo-delta.png',
+        projetoLink: 'https://deltaseguranca.com.br/',
+        category: 'elementor', 
+    },
     {
         id: 6,
         image: './../img/digitaliano.png',
