@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+$preto: #0d0d0d;
+$roxo: #8e58a6;
+$branco: #fff;
+$cinza: #808080;
+$roxo-claro: #987ea3;
+
+
+* {
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: $branco;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: $preto;
+    overflow-x: hidden;
+}
+
+@mixin device($size) {
+    @media screen and (max-width: $size) {
+        @content;
+    }
+}
+
+@mixin container {
+    max-width: 950px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+@mixin container-interno {
+    display: flex;
+    align-items: baseline;
+    margin: 0 auto;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+

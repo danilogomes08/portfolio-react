@@ -1,0 +1,28 @@
+@import '../../index.scss';
+
+.Skills {
+    margin-bottom: 100px;
+    @include container;
+    & > div:first-child {
+        margin: 0 auto;
+    }
+    & .Linha-vertical {
+        margin: 0 auto 80px auto
+    }
+}
+
+.Habilidades {
+    @include container-interno;
+    @include device(768px) {
+        margin-bottom: 0;
+        div {
+            margin: 0 auto 30px auto;
+        }
+    }
+    & div {
+        max-width: 230px;
+    }
+    img {
+        max-width: 60%;
+    }
+}

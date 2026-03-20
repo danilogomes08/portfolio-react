@@ -1,0 +1,31 @@
+@import '../../../index.scss';
+
+.Buttons a:nth-child(2) {
+    transition: all .5s ease-in-out;
+    background-color: $roxo;
+    border-radius: 5px;
+    flex: 1;
+    margin-left: 15px;
+    text-align: center;
+    align-self: center;
+    padding: 13px 0;
+}
+
+.Buttons a:nth-child(2):hover {
+    transform: scale(1.2); 
+}
+
+.Buttons a:nth-child(1) {
+    transition: all .5s ease-in-out;
+    border: 2px solid $roxo;
+    color: $roxo;
+    border-radius: 5px;
+    flex: 1;
+    padding: 13px 0;
+    margin-right: 15px;
+    text-align: center;
+}
+
+.Buttons a:nth-child(1):hover{ 
+    transform: scale(1.2); 
+}
